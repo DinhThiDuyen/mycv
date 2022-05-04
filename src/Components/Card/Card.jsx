@@ -1,5 +1,5 @@
 import React from "react";
-import './Card.css'
+import "./Card.css";
 
 const Card = ({ emoji, heading, detail }) => {
   return (
@@ -7,7 +7,7 @@ const Card = ({ emoji, heading, detail }) => {
       <img src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
-      <button className="c-button">LEARN MORE</button>
+      <button className="c-button">LEARN MORE.</button>
     </div>
   );
 };
