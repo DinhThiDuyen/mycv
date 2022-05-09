@@ -19,12 +19,12 @@ const Services = () => {
     <div className="services" id="Services">
       {/*left side*/}
       <div className="awesome">
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My</span>
+        <span>Objective</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing Lorem
+          Have the opportunity to become a senior on Front-End
           <br />
-          ispum is simpley dummy text of printing
+          after 3-5 years working at the company
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -71,9 +71,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            detail={"User Interface, User Experience"}
           />
         </motion.div>
         <div

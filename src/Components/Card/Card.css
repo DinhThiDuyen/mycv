@@ -35,6 +35,11 @@
     color: #5290fd;
 }
 
+.c-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 @media screen and (max-width:480px) {
     .card {
         width: auto;

@@ -23,8 +23,9 @@
     gap: 2rem;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
     .f-content {
-        transform: scale(0.5);
+        transform: scale(.5);
+        gap: 1rem;
     }
 }

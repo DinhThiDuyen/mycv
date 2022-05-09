@@ -1,10 +1,11 @@
 import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import ReadingBook from "../../img/readingbook.jpg";
+import Travel from "../../img/travel.jpg";
+import Music from "../../img/music.jpg";
+import Badminton from "../../img/badminton.png";
+
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import "swiper/css";
@@ -12,33 +13,32 @@ import "swiper/css";
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      img: ReadingBook,
       review:
-        "Lorem ipsum dolar, sit amet consectetur adipisicing elit. Ex officiis molestiae qoud tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Reading helps stimulate brain developmen, helps to expand knowledge and helps to expand vocabulary. Improve your memory by reading books regularly, analytical thinking skills. Enhance concentration",
     },
     {
-      img: profilePic2,
+      img: Travel,
       review:
-        "Lorem ipsum dolar, sit amet consectetur adipisicing elit. Ex officiis molestiae qoud tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "The trip will help you relax your mind, improve stress, reduce the risk of depression and heart disease. The quiet space, fresh climate also contribute to the healing of mental and physical injuries.",
     },
     {
-      img: profilePic3,
+      img: Music,
       review:
-        "Lorem ipsum dolar, sit amet consectetur adipisicing elit. Ex officiis molestiae qoud tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Music makes you feel happier. Music gives you more motivation. Music relieves stress and improves health. Music helps you sleep better, reduce the risk of depression.",
     },
     {
-      img: profilePic4,
+      img: Badminton,
       review:
-        "Lorem ipsum dolar, sit amet consectetur adipisicing elit. Ex officiis molestiae qoud tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Badminton can help reduce health risks such as high blood pressure, diabetes, obesity... It also increases good cholesterol, which can help reduce the risk of cardiovascular diseases.",
     },
   ];
 
   return (
     <div className="t-wrapper" id="Testimonials">
       <div className="t-heading">
-        <span>Clients always get </span>
-        <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>My favorite </span>
+        <span>Activity </span>
         <div
           className="blur t-blur1"
           style={{ background: "var(--purple)" }}

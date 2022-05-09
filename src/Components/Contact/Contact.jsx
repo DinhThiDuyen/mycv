@@ -24,6 +24,7 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setDone(true);
+          form.reset();
         },
         (error) => {
           console.log(error.text);
@@ -35,7 +36,7 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" id="contact">
       <div className="w-left">
         <div className="awesome">
           <span style={{ color: darkMode ? "white" : "" }}>Get in touch</span>

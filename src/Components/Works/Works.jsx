@@ -21,13 +21,9 @@ const Works = () => {
         </span>
         <span>Brands & Clients</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-          <br />
-          ispum is simpley dummy text of printing text of printing
-          <br />
-          Lorem ispum is simpley dummy text
+          In the future
+          <br />I hope to be able to work for many big
+          <br /> Brands and Clients around the World
         </spane>
         <button className="button s-button">Hire me</button>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
